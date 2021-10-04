@@ -66,6 +66,7 @@ header{
     border:none;
     padding:0.5em;
     width:5em;
+    border-radius:3px;
 }
 .left-li:hover{
 text-decoration: underline;
@@ -86,8 +87,9 @@ text-decoration: underline;
     width: 50%;
     margin:auto;
     text-align: center;
-        
-    
+}
+#search-box:hover{
+    box-shadow: 3px 3px 5px lightgray;
 }
 #magnifying_glass{
     width:30px;
@@ -110,6 +112,15 @@ text-decoration: underline;
     border-radius:30px;
     vertical-align: middle;
 }
+#search-area{
+    border:hidden;
+    width:80%;
+    height:3em;
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+
 #buttons{
     margin-top:1.5em;
     margin-bottom:1.5em;
